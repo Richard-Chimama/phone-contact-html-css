@@ -1,0 +1,103 @@
+.input-number input, .input-number a {
+    display: block;
+    text-align: center;
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    color: white;
+    
+}
+.keypad{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem; 
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.input-number{
+    position: relative;
+    top: clamp(1rem, 2vh, 10rem);
+}
+
+
+.input-number input:focus{
+    outline: none;
+}
+
+.input-number a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+    margin-bottom: -2rem;
+
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width:300px;
+    height: 60vh;
+    margin: 0rem auto;
+    opacity: 0.8;  
+    margin-bottom: 2vh;   
+}
+
+.numbers-digits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-size: 8px;
+}
+
+.number-btn{
+    background-color:white;
+    height: 65px;
+    width: 65px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.number-btn:hover{
+    background-color: lightgray;
+    outline: 3px solid white;
+}
+
+.number-btn-digit{
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 0.5rem;
+    margin-bottom: -0.7rem;
+}
+
+.letters{
+    font-size: 10px;
+}
+
+.call-btn img{
+    width: 65px;
+    height: 65px;
+}
+
+.delete-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-btn img{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+

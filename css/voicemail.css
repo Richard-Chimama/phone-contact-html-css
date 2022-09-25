@@ -1,0 +1,18 @@
+.voicemail-header{
+    font-size: 24px;
+    font-weight: 900;
+    padding-inline: 1rem;
+    padding-top: 2rem;
+}
+
+.main-voicemail{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-voicemail p{
+    border: 1px solid grey;
+    padding: 5px;
+}

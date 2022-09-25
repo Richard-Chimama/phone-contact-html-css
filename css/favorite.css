@@ -1,0 +1,21 @@
+.favorite{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorite-header{
+    position: absolute;
+    font-size: 20px;
+    top: 0.5rem;
+
+}
+.main-favorite{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    height: 90vh;
+}
