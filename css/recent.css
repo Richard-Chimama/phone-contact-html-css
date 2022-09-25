@@ -1,3 +1,5 @@
+@import "style.css";
+
 .options{
     position: relative;
     height: 7vh;
@@ -27,7 +29,7 @@
     
 }
 .all a, .missed a{
-    color:white;
+    color:var(--light);
     text-decoration: none;
     cursor: pointer;
 }
@@ -105,7 +107,7 @@
 }
 
 .recent-name{
-    color: white;
+    color: var(--light);
     font-weight: 600;
     font-size: 18px;
     margin-top: 0.5rem;

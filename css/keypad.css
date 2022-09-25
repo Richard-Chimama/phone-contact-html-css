@@ -1,3 +1,5 @@
+@import "style.css";
+
 .input-number input, .input-number a {
     display: block;
     text-align: center;
@@ -5,8 +7,8 @@
     border: none;
     width: 100%;
     height: 40px;
-    font-size: 26px;
-    color: white;
+    font-size: var(--headers);
+    color: var(--light);
     
 }
 .keypad{
@@ -33,7 +35,7 @@
 .input-number a{
     text-decoration: none;
     font-size: 18px;
-    color: blue;
+    color: var(--blue);
     margin-bottom: -2rem;
 
 }
@@ -56,22 +58,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    font-size: 8px;
+    font-size: var(--small);
 }
 
 .number-btn{
-    background-color:white;
+    background-color:var(--light);
     height: 65px;
     width: 65px;
     border: none;
     border-radius: 50%;
     text-align: center;
-    font-size: 12px;
+    font-size: var(--medium);
 }
 
 .number-btn:hover{
     background-color: lightgray;
-    outline: 3px solid white;
+    outline: 3px solid var(--light);
 }
 
 .number-btn-digit{
@@ -96,7 +98,7 @@
     align-items: center;
 }
 .delete-btn img{
-    background-color: white;
+    background-color: var(--light);
     width: 30px;
     height: 30px;
 }

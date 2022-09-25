@@ -1,5 +1,7 @@
+@import "style.css";
+
 .voicemail-header{
-    font-size: 24px;
+    font-size: var(--headers);
     font-weight: 900;
     padding-inline: 1rem;
     padding-top: 2rem;

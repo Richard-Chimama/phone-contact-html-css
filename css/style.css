@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Inter:wght@200&family=Orbitron:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 :root{
-    --light-gray:  rgb(243, 233, 233);
+    /*---- Colors ---------*/
+    --light:  rgb(243, 233, 233);
     --black: rgb(17, 4, 4);
+    --blue: skyblue;
+
+    /* ------ fonts size --------*/
+    --headers: 20px;
+    --medium: 12px;
+    --small: 8px; 
 }
 
 .container{
@@ -16,6 +25,7 @@
     border-radius: 15px;
     background-color: var(--black);
     color:azure;
+    font-family: 'EB Garmamond', serif;
 }
 .header, .main, .aside, .footer{
     padding: 5px;
@@ -92,7 +102,6 @@
 }
 
 .heading{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-left: 0.3rem;
@@ -112,27 +121,26 @@
 }
 
 .footer-block{
-
     display:flex;
     flex-direction: column;
     padding: 0 0.8rem;
     margin: 0 auto;
     text-decoration: none;
-    color:white;
+    color:var(--light);
     font-size: 10px;
     justify-content: center;
     align-items: center;
  }
 
  .active{
-    color: skyblue;
+    color: var(--blue);
  }
  #active{
-     background-color: skyblue;
+     background-color: var(--blue);
  }
  
  .footer-block img{
-     background-color: white;
+     background-color: var(--light);
      height: 35px;
      width: 35px;
      border-radius: 50%;
@@ -182,7 +190,7 @@
 }
 
 .individual-contact a > div{
-    color: white;
+    color: var(--light);
     font-size: 18px;
     padding: 0.5rem 0;
     border-bottom: 1px solid rgba(250,250, 250, 0.3);
