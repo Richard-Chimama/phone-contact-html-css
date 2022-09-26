@@ -47,7 +47,7 @@
 .search{
     display: flex;
     gap: 5px;
-    background-color: var(--light-gray);
+    background-color: var(--light);
     height: 30px;
     width: 97%;
     padding: 5px;
