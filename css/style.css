@@ -57,7 +57,7 @@
 .search input{
     border: none;
     color: var(--black);
-    background-color: var(--light-gray);
+    background-color: var(--light);
     width: 70%;
     outline: none;
 }
